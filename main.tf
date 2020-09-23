@@ -1,7 +1,7 @@
 provider "aws" {
  region = "us-east-1"
- access_key = "AKIA5ROFQ7AYCAFHTEG2"
- secret_key = "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"
+ #access_key = "AKIA5ROFQ7AYCAFHTEG2"
+ #secret_key = "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"
 }
 
 terraform {
@@ -9,8 +9,8 @@ terraform {
     bucket = "cts-statebucket"
     key    = "s3://cts-statebucket/YoMama/terraform.tfstate"
     region = "us-east-1"
-    access_key = "AKIA5ROFQ7AYCAFHTEG2"
-    secret_key = "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"
+    #access_key = "AKIA5ROFQ7AYCAFHTEG2"
+    #secret_key = "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"
   }
 }
 
